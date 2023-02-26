@@ -7,7 +7,7 @@ context('my sixth test', () => {
 
   it("triggers a popover ona click", () => {
     cy.visit("/commands/actions");
-    cy.get("h1").should("exist");
+    cy.get("h1").should("exist"); 
   }); 
 
   it('can click on different sections of the canvas', () => {
